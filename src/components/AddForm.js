@@ -24,6 +24,7 @@ const AddForm = (props) => {
         }
         props.addSmurf({name: state.name, position: state.position, nickname: state.nickname, description: state.description})
     }
+    
 
     const errorMessage = "";
 
